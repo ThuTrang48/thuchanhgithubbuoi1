@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Giới thiệu bản thân</title>
+    <!-- 1. Thêm biểu tượng cho website -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        /* 5. Thêm thẻ style, gọi class và id */
+        #main-title {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .highlight-text {
+            background-color: #ffeaa7;
+            padding: 2px 5px;
+        }
+        .custom-box {
+            border: 2px dashed #0984e3;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        /* Trang trí bảng */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #651f93;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f1f2f6;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="custom-box">
+        <h2 id="main-title">Hồ sơ cá nhân (CV)</h2>
+        <p>
+            Xin chào! Tôi là một lập trình viên tương lai. <span class="highlight-text">Rất vui được kết nối với bạn.</span> 
+            Bạn có thể tìm hiểu thêm kiến thức tại <a href="https://www.w3schools.com/html/">W3Schools</a> hoặc kết nối qua <b>Email</b> và <i>Mạng xã hội</i>.
+        </p>
+    </div>
+
+    <!-- 3. Sử dụng <ul> liệt kê ít nhất 3 sở thích -->
+    <h2>Sở thích cá nhân</h2>
+    <ul>
+        <li>Lập trình web và thiết kế giao diện</li>
+        <li>Đọc sách công nghệ và tiểu thuyết</li>
+        <li>Chơi thể thao và nghe nhạc lofi</li>
+    </ul>
+
+    <!-- 4. Sử dụng <ol> liệt kê ít nhất 3 mục tiêu hoặc kế hoạch -->
+    <h2>Mục tiêu cá nhân</h2>
+    <ol>
+        <li>Hoàn thành xuất sắc khóa học HTML/CSS cơ bản.</li>
+        <li>Xây dựng hoàn chỉnh 3 dự án website thực tế.</li>
+        <li>Thành thạo JavaScript trong 6 tháng tới.</li>
+    </ol>
+
+    <!-- 2. Bảng thông tin thời khóa biểu (có dùng rowspan, colspan và trang trí đường viền) -->
+    <h2>Thời khóa biểu học tập</h2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Thứ / Buổi</th>
+                <th colspan="2">Nội dung học</th>
+                <th rowspan="2">Ghi chú</th>
+            </tr>
+            <tr>
+                <th>Sáng</th>
+                <th>Chiều</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Thứ Hai</td>
+                <td>HTML Cơ bản</td>
+                <td>Thực hành CSS</td>
+                <td>Làm bài tập về nhà</td>
+            </tr>
+            <tr>
+                <td>Thứ Ba</td>
+                <td>Lập trình C++</td>
+                <td>Cấu trúc dữ liệu</td>
+                <td>Tự học ở thư viện</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 6. Sử dụng thẻ <iframe> nhúng video YouTube -->
+    <h2 style="margin-top: 25px;">Video yêu thích của tôi</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Thông tin cá nhân</legend>
+
+
+        </datalist>
+<br>
+    <br form action="/ action_page.php" method="get" target="blank">
+    Họ và tên <input list=" namelist " name="name" placeholder="Nhập họ và tên">
+    <datalist id ='nameList'>
+            <option value="Nguyễn Văn A">
+            <option value="Nguyễn Văn B">
+            <option value="Nguyễn Văn C">
+        </datalist>
+        
+        <label type="number" for ="age">Tuổi: </label>
+        <input type="number" id="age" name="age" min="1" max="100" placeholder="Nhập tuổi"><br><br>
+    
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Nhập tên"> <br></br>
+        <label for="email">Email:</label>
+        
+        <input type="email" id="email" name="email" placeholder="Nhập email"><br><br>
+
+        <label for="password">Password:</label>
+
+        <select id="password" name="password">
+            <option value="password1">Password 1</option>
+            <option value="password2">Password 2</option>
+            <option value="password3">Password 3</option>
+        </select><br></br>
+        Miêu tả bản thân <br> </br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Nhập tin nhắn"></textarea><br><br>
+        <input type="submit" value="Submit" onclick="alert('Xin chào!')"><br></br>
+        
+        <button type="button" onclick = "alert('Xin chào!')">Click me</button>
+            
+        </button>
+        <button type="reset" onclick="window.location.href='https://www.google.com'">Go to Google</button>
+        
+
+
+
+
+
+   </fieldset>
+    </form>
+</body>
+</html>
